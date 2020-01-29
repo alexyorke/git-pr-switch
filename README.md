@@ -20,6 +20,7 @@ When the user is done, it will:
 Log into your Azure DevOps account in Firefox. Change the `GIT_REPO` folder path and the `AZURE_URL` in the script. Then,
 
 `pip3 install -r requirements.txt`
+
 `python3 git-pr-switch.py`
 
 Follow the on-screen prompts.
