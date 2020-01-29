@@ -14,6 +14,8 @@ When the user is done, it will:
 - if not, it will switch to the previous branch the user was on
 - re-apply all stashed changes if there was changes originally
 
+This means that it will preserve any git stashes that you have; it won't apply a stash that was stashed before invoking this program.
+
 
 ## How to run
 
