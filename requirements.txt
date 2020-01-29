@@ -1,0 +1,2 @@
+requests==2.22.0
+browser_cookie3==0.10.0
