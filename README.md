@@ -24,3 +24,5 @@ Log into your Azure DevOps account in Firefox. Change the `GIT_REPO` folder path
 `python3 git-pr-switch.py`
 
 Follow the on-screen prompts.
+
+**Note:** make sure that you trust the source of the repo, as there is no filtering for the command or repo names. This means that a malicious actor could execute arbitrary commands.
