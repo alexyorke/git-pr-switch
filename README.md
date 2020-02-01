@@ -8,6 +8,7 @@ When it switches, it:
 - fetches all branches from remote
 - switches to the PR branch
 - pulls branch to get latest changes
+- check if the remote branch is behind the remote base branch**, which could cause outdated code to be tested
 
 When the user is done, it will:
 - ask the user to discard any changes (if any were made to the PR.) It will not discard commits; just uncommited changes.
@@ -16,6 +17,7 @@ When the user is done, it will:
 
 This means that it will preserve any git stashes that you have; it won't apply a stash that was stashed before invoking this program.
 
+** roadmap
 
 ## How to run
 
